@@ -16,6 +16,9 @@ dependencies:
   pretty_dio_logger: ^1.4.0
   shared_preferences: ^2.2.3
   flutter_bloc: ^8.1.6
+  flutter_local_notifications: ^18.0.1
+  audioplayers: ^6.1.0
+
 
 dev_dependencies:
   flutter_test:
@@ -27,7 +30,11 @@ flutter:
 
   uses-material-design: true
 
+  assets:
+    - assets/images/app_icon.png
+    - assets/notification_sound.mp3
+
   # To add assets to your application, add an assets section, like this:
   # assets:
-  #   - images/a_dot_burr.jpeg
+  #   - assets/images/app_icon.png
   #   - images/a_dot_ham.jpeg
